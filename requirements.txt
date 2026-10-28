@@ -1,0 +1,8 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+httpx>=0.27,<1
+openai>=1.76,<3
+python-dotenv>=1.0,<2
+python-multipart>=0.0.9,<1
+tzdata; sys_platform == "win32"
+telethon>=1.45,<2
